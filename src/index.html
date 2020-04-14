@@ -15,22 +15,22 @@
     <header class="header">
       <nav class="header-menu">
         <div class="container">
+          <a href="#" class="logo"
+            ><img src="./assets/logo-imdb.jpg" alt="logo" />
+          </a>
           <ul>
-            <li>
-              <a href="#" class="logo"
-                ><img src="./assets/logo-imdb.jpg" alt="logo" />
-              </a>
-            </li>
             <li><a href="#">Lançamentos</a></li>
             <li><a href="">Crítica</a></li>
             <li><a href="">Em cartaz</a></li>
+          </ul>
+          <div class="perfil">
             <img
               class="photo-perfil"
               src="./assets/walter-white.jpg"
               alt="Perfil"
             />
             <div class="name-perfil">Walter White</div>
-          </ul>
+          </div>
         </div>
       </nav>
 
@@ -38,13 +38,11 @@
         <div class="container">
           <h1 class="jumbotron-title">Mad Max: Estrada da fúria</h1>
 
-          <nav class="jumbotron-menu">
-            <ul>
-              <li><a href="">Aventura</a></li>
-              <li><a href="">Sci-fi</a></li>
-              <li><a href="">Terror</a></li>
-            </ul>
-          </nav>
+          <ul class="jumbotron-menu">
+            <li><a href="">Aventura</a></li>
+            <li><a href="">Sci-fi</a></li>
+            <li><a href="">Terror</a></li>
+          </ul>
 
           <button>Assistir Trailer <i class="fa fa-play-circle-o"></i></button>
           <div class="jumbotron-information">
@@ -56,8 +54,8 @@
     </header>
 
     <section class="movie-catalog">
-      <div class="container">
-        <nav class="menu-movies">
+      <nav class="menu-movies">
+        <div class="container">
           <ul>
             <li><a href="#">Nos cinemas</a></li>
             <li><a href="#">Em breve</a></li>
@@ -65,81 +63,77 @@
             <li><a href="#">Séries</a></li>
             <li><a href="#">Trailers</a></li>
           </ul>
-        </nav>
+        </div>
+      </nav>
 
+      <div class="container">
         <ul class="movie-list">
           <li class="movie">
             <div class="movie-card">
-              <div class="movie-card-header">
-                <img src="./assets/poster-moonlight.jpg" alt="" />
+              <img src="./assets/poster-moonlight.jpg" alt="" />
 
-                <div class="movie-info">
-                  <h3>Moonlight</h3>
-                  <i class="fa fa-play"></i>
-                </div>
-              </div>
-              <div class="movie-synopsis">
+              <div class="movie-info">
                 <h3>Moonlight</h3>
-                <a href="#">Drama</a>
-                <p class="votes"><i class="fa fa-heart"></i>7.0</p>
+                <i class="fa fa-play"></i>
               </div>
+            </div>
+
+            <div class="movie-synopsis">
+              <h3>Moonlight</h3>
+              <a href="#">Drama</a>
+              <p class="votes"><i class="fa fa-heart"></i>7.0</p>
             </div>
           </li>
           <li class="movie">
             <div class="movie-card">
-              <div class="movie-card-header">
-                <img src="./assets/poster-bladerunner.jpg" alt="" />
+              <img src="./assets/poster-bladerunner.jpg" alt="" />
 
-                <div class="movie-info">
-                  <h3>Blade Runner</h3>
-                  <i class="fa fa-play"></i>
-                </div>
-              </div>
-              <div class="movie-synopsis">
+              <div class="movie-info">
                 <h3>Blade Runner</h3>
-                <a href="#">Aventura,</a>
-                <a href="#">Sci-fi</a>
-                <p class="votes"><i class="fa fa-heart"></i>7.0</p>
+                <i class="fa fa-play"></i>
               </div>
+            </div>
+            <div class="movie-synopsis">
+              <h3>Blade Runner</h3>
+              <a href="#">Aventura,</a>
+              <a href="#">Sci-fi</a>
+              <p class="votes"><i class="fa fa-heart"></i>7.0</p>
             </div>
           </li>
           <li class="movie">
             <div class="movie-card">
-              <div class="movie-card-header">
-                <img src="./assets/poster-mad-max.jpg" alt="" />
+              <img src="./assets/poster-mad-max.jpg" alt="" />
 
-                <div class="movie-info">
-                  <h3>Mad Max</h3>
-                  <i class="fa fa-play"></i>
-                </div>
-              </div>
-              <div class="movie-synopsis">
+              <div class="movie-info">
                 <h3>Mad Max</h3>
-                <a href="#">Aventura,</a>
-                <a href="#">Sci-fi,</a>
-                <a href="#">Terror</a>
-
-                <p class="votes"><i class="fa fa-heart"></i>7.0</p>
+                <i class="fa fa-play"></i>
               </div>
+            </div>
+            <div class="movie-synopsis">
+              <h3>Mad Max</h3>
+              <a href="#">Aventura,</a>
+              <a href="#">Sci-fi,</a>
+              <a href="#">Terror</a>
+
+              <p class="votes"><i class="fa fa-heart"></i>7.0</p>
             </div>
           </li>
           <li class="movie">
             <div class="movie-card">
-              <div class="movie-card-header">
-                <img src="./assets/poster-alita.jpg" alt="" />
+              <img src="./assets/poster-alita.jpg" alt="" />
 
-                <div class="movie-info">
-                  <h3>Alita</h3>
-                  <i class="fa fa-play"></i>
-                </div>
-              </div>
-              <div class="movie-synopsis">
+              <div class="movie-info">
                 <h3>Alita</h3>
-                <a href="#">Aventura,</a>
-                <a href="#">Sci-fi</a>
-
-                <p class="votes"><i class="fa fa-heart"></i>7.0</p>
+                <i class="fa fa-play"></i>
               </div>
+            </div>
+
+            <div class="movie-synopsis">
+              <h3>Alita</h3>
+              <a href="#">Aventura,</a>
+              <a href="#">Sci-fi</a>
+
+              <p class="votes"><i class="fa fa-heart"></i>7.0</p>
             </div>
           </li>
         </ul>
